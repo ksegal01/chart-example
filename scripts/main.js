@@ -1,5 +1,3 @@
-<script>
-
 var margin = {top: 20, right: 50, bottom: 30, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -96,5 +94,3 @@ d3.tsv("data.tsv", function(error, data) {
     focus.select("text").text(formatCurrency(d.close));
   }
 });
-
-</script>
